@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+}
+
+nav { /* static hovering nav bar */
+    position: fixed;
+    background: rgba(41, 128, 185, .8); /* idk color scheme yet */
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+a.nav-item {
+    color: #222; /* idk color scheme yet */
+    text-decoration: none;
+    padding: 4px;
+    float: left;
+    text-transform: lowercase;
+    font-size: 1em;
+}
+
+a.nav-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #666;
+    text-transform: lowercase;
+    font-size: 1em;
+}
+
+header {
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 2%;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 3em;
+}
+
+h2, ul {
+    /* color: #34495e; */
+    padding: 5px;
+}
+
+li {
+    font-size: 13px;
+    line-height: 130%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 130%;
+}
+
+div {
+    margin: 0px auto;
+}
+
+div.social-media {
+    margin: 5px;
+}
+
+#sidebar {
+    width: 25%;
+    height: 280px;
+    float: left;
+    display: inline-block;
+    padding: 3px;
+    /* background-color: yellow; *//* test-purposes */
+}
+
+#skills {
+    background-color: #34495e;
+    color: #eee;
+    height: 300px;
+}
+
+#about {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 2%;
+}
+
+#contact {
+    background-color: #3498db;
+    color: #eee;
+        padding: 2%;
+}
+
+.footer {
+    background: #7f8c8d; /* idk color scheme yet */
+    width: 100%;
+    padding: 1%;
+    margin: 0;
+    overflow: auto;
+    text-align: center;
+}
+
+.name {
+    color: navy;
+}
+
+a.name {
+    text-decoration: none;
+}
+
+a.name:hover {
+    color: white;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.img-opacity {
+    opacity: .5;
+    height: 280px;
+}
+
+.social-icon {
+    padding: 20px 30px;
+    width: 100px;
+}
